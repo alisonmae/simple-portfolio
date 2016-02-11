@@ -1,7 +1,7 @@
 header {
 	text-align: center;
 	background: white;
-	color: black;
+	color: white;
 }
 h1{
 	font-family: garamond;
@@ -9,8 +9,8 @@ h1{
 	font-style: bold;
 }
 h2 {
+  font-family: garamond;
   font-size: 20px;
-  font-family: Garamond;
   color: black;
 }
 h3 {
@@ -27,22 +27,38 @@ p{
 	font-style: bold;
 	font-size: 15px;
 	font-family: garamond;
+  color: white;
+
 }
 .menu ul{
+  text-align: center;
 	list-style: inline;
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
 	font-family: garamond;
+  color: black;
 }
 ul {
 	list-style-type: none;
 	padding: 10px;
-	background: gray;
+	background: white;
 }
 li {
   display: inline;
   padding: 0px 10px 0px 10px;
 }
-button {
-	text-align: left;
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+background: url(file:///Users/AlisonMae/Documents/wdi-hw/simple-portfolio/hw-images/bonhamCh.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
