@@ -1,20 +1,48 @@
-
-h1 {
-  font-size: 30px;
-  font-family: Garamond;
-  color: black;
+header {
+	text-align: center;
+	background: white;
+	color: black;
 }
-
+h1{
+	font-family: garamond;
+	font-size: 30px;
+	font-style: bold;
+}
 h2 {
   font-size: 20px;
   font-family: Garamond;
   color: black;
 }
-
 h3 {
   font-size: 20px;
   font-family: Garamond;
   color: black;
 }
-
+h1{
+	font-family: garamond;
+	font-size: 30px;
+	font-style: bold;
 }
+p{
+	font-style: bold;
+	font-size: 15px;
+	font-family: garamond;
+}
+.menu ul{
+	list-style: inline;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-family: garamond;
+}
+ul {
+	list-style-type: none;
+	padding: 10px;
+	background: gray;
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+button {
+	text-align: left;
