@@ -17,6 +17,7 @@ h2 {
   font-size: 14px;
   color: white;
   text-decoration: none;
+  max-width: 100px;
 }
 h3 {
   font-size: 20px;
@@ -25,7 +26,7 @@ h3 {
   text-decoration: none;
 }
 p{
-	font-style: bold;
+	font-style: normal;
 	font-size: 15px;
 	font-family: garamond;
   color: white;
@@ -33,18 +34,28 @@ p{
 }
 .menu ul{
   text-align: center;
-  text-decoration: none;
 	list-style: inline;
 	padding: 0;
 	margin: 0;
 	font-family: garamond;
   list-style-type: none;
-  text-decoration: none;
 }
 li {
   display: inline;
   text-decoration: none;
   padding: 0px 10px 0px 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.menu a:hover {
+ background-color: #FFD700;
+ border-radius: 5px;
+}
+
 }
 html, body {
   height: 100%;
