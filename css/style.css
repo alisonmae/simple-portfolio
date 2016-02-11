@@ -7,9 +7,10 @@ header {
 }
 h1{
 	font-family: garamond;
-	font-size: 30px;
+	font-size: 60px;
 	font-style: bold;
   text-decoration: none;
+  line-height: 20px;
 }
 h2 {
   text-align: center;
