@@ -1,4 +1,6 @@
 header {
+  font-family: garamond;
+  font-size: 12px;
 	text-align: center;
 	background: none;
 	color: white;
@@ -7,46 +9,41 @@ h1{
 	font-family: garamond;
 	font-size: 30px;
 	font-style: bold;
+  text-decoration: none;
 }
 h2 {
   text-align: center;
   font-family: garamond;
   font-size: 14px;
   color: white;
+  text-decoration: none;
 }
 h3 {
   font-size: 20px;
-  font-family: Garamond;
+  font-family: garamond;
   color: black;
-}
-h1{
-	font-family: garamond;
-	font-size: 30px;
-	font-style: bold;
+  text-decoration: none;
 }
 p{
 	font-style: bold;
 	font-size: 15px;
 	font-family: garamond;
   color: white;
-
+  text-decoration: none;
 }
 .menu ul{
   text-align: center;
+  text-decoration: none;
 	list-style: inline;
 	padding: 0;
 	margin: 0;
-	list-style-type: none;
 	font-family: garamond;
-  color: black;
-}
-ul {
-	list-style-type: none;
-	padding: 10px;
-	background: none;
+  list-style-type: none;
+  text-decoration: none;
 }
 li {
   display: inline;
+  text-decoration: none;
   padding: 0px 10px 0px 10px;
 }
 html, body {
@@ -97,4 +94,11 @@ html, body {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+#image-elements {
+  min-height: 50%;
+  width: 50%;
+  height: auto;
+  position: fixed;
 }
